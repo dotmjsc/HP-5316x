@@ -10,7 +10,7 @@ Usage example:
 ```python
 instrument = HP5316X("GPIB1::20::INSTR")
 
-# set measurment mode to period channel A
+# set measurement mode to period channel A
 instrument.measmode = instrument.MeasModes.PERIOD_A
 
 # set gatemode to long with front control
